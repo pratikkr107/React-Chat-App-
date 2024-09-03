@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    /* React Chat App colors code */
+--PRIMARY-COLOR: #10B982;
+--SECONDARY-COLOR: #EBEEF3;
+--WHITE-COLOR: #FFFFFF;
+--BLACK-COLOR: #000000;
+--DARK-GREEN: #059669;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.app {
+    min-width: 100%;
+    min-height: 100vh;
+    /* letter-spacing: 1px; */
+    /* font-weight: 400; */
+}
+
+::-webkit-scrollbar {
+ width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #C8CBD0;
+    border-radius: 10px;
+    
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
